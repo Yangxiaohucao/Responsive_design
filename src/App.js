@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import CardList from "./components/card-list/card-list.component";
+import JsonData from "./data.json";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="imageContainer">
+        <img />
+      </div>
+      <div className="cardContainer">
+        <CardList jsonData={JsonData} />
+      </div>
     </div>
   );
 }

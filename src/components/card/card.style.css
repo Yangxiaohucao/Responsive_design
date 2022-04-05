@@ -1,0 +1,41 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  .customButton{
+    border-radius: 15px 15px;
+    min-width: 55px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+  }
+  .customButton:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid red;
+  }
+  
